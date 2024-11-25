@@ -563,3 +563,29 @@ START_OF_TEST_JSON{"version":"3.13.2","examples":[{"id":"./spec/features/creatin
 [2024-11-25 18:17:36.034] [INFO] Sending autorun event
 [2024-11-25 18:18:23.939] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
 [2024-11-25 18:18:23.940] [INFO] Sending autorun event
+[2024-11-25 18:21:41.232] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:21:41.232] [INFO] Sending autorun event
+[2024-11-25 18:22:02.973] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:22:02.974] [INFO] Sending autorun event
+[2024-11-25 18:23:00.761] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:23:00.761] [INFO] Sending autorun event
+[2024-11-25 18:23:48.673] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:23:48.674] [INFO] Sending autorun event
+[2024-11-25 18:24:28.192] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:24:28.192] [INFO] Sending autorun event
+[2024-11-25 18:24:39.894] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:24:39.895] [INFO] Sending autorun event
+[2024-11-25 18:25:07.202] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:25:07.202] [INFO] Sending autorun event
+[2024-11-25 18:25:53.216] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:25:53.216] [INFO] Sending autorun event
+[2024-11-25 18:26:25.656] [INFO] /home/maciej/ruby/ticketee/app/views/devise/registrations/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:26:25.656] [INFO] Sending autorun event
+[2024-11-25 18:27:12.952] [INFO] /home/maciej/ruby/ticketee/app/views/devise/sessions/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:27:12.952] [INFO] Sending autorun event
+[2024-11-25 18:27:28.056] [INFO] /home/maciej/ruby/ticketee/app/views/devise/sessions/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:27:28.056] [INFO] Sending autorun event
+[2024-11-25 18:28:37.370] [INFO] /home/maciej/ruby/ticketee/app/views/devise/sessions/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:28:37.370] [INFO] Sending autorun event
+[2024-11-25 18:28:55.559] [INFO] /home/maciej/ruby/ticketee/app/views/devise/sessions/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 18:28:55.559] [INFO] Sending autorun event
