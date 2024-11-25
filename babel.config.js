@@ -28,6 +28,7 @@ module.exports = function (api) {
       (isProductionEnv || isDevelopmentEnv) && [
         '@babel/preset-env',
         {
+          loose: false,
           forceAllTransforms: true,
           useBuiltIns: 'entry',
           corejs: 3,
@@ -44,7 +45,7 @@ module.exports = function (api) {
       [
         '@babel/plugin-proposal-class-properties',
         {
-          loose: true,
+          loose: false,
         },
       ],
       [
@@ -56,7 +57,7 @@ module.exports = function (api) {
       [
         '@babel/plugin-proposal-private-methods',
         {
-          loose: true,
+          loose: false,
         },
       ],
       [

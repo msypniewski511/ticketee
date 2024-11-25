@@ -31,3 +31,9 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem "bootstrap", "~> 5.0"
+
+gem "font-awesome-rails", "= 4.7.0.9"
+
+gem "bootstrap_form", "4.5.0"

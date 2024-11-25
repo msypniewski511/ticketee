@@ -134,3 +134,241 @@ START_OF_TEST_JSON{"version":"3.13.2","examples":[{"id":"./spec/features/creatin
 [2024-11-25 11:06:01.676] [INFO] Sending autorun event
 [2024-11-25 11:07:05.268] [INFO] /home/maciej/ruby/ticketee/app/controllers/tickets_controller.rb was saved - checking if this effects /home/maciej/ruby/ticketee
 [2024-11-25 11:07:05.268] [INFO] Sending autorun event
+[2024-11-25 11:16:13.450] [INFO] /home/maciej/ruby/ticketee/Gemfile was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:16:13.450] [INFO] Sending autorun event
+[2024-11-25 11:18:00.824] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:18:00.824] [INFO] Sending autorun event
+[2024-11-25 11:20:26.066] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:20:26.067] [INFO] Sending autorun event
+[2024-11-25 11:22:08.067] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:22:08.067] [INFO] Sending autorun event
+[2024-11-25 11:24:26.463] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:24:26.463] [INFO] Sending autorun event
+[2024-11-25 11:28:51.595] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:28:51.595] [INFO] Sending autorun event
+[2024-11-25 11:29:41.481] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:29:41.481] [INFO] Sending autorun event
+[2024-11-25 11:30:04.593] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:30:04.593] [INFO] Sending autorun event
+[2024-11-25 11:32:51.604] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 11:32:51.604] [INFO] Sending autorun event
+[2024-11-25 12:06:49.775] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:06:49.775] [INFO] Sending autorun event
+[2024-11-25 12:07:37.466] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:07:37.466] [INFO] Sending autorun event
+[2024-11-25 12:07:45.771] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:07:45.771] [INFO] Sending autorun event
+[2024-11-25 12:10:26.929] [INFO] /home/maciej/ruby/ticketee/app/views/projects/edit.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:10:26.930] [INFO] Sending autorun event
+[2024-11-25 12:12:53.757] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:12:53.757] [INFO] Sending autorun event
+[2024-11-25 12:13:41.899] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:13:41.899] [INFO] Sending autorun event
+[2024-11-25 12:14:34.588] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:14:34.588] [INFO] Sending autorun event
+[2024-11-25 12:14:52.514] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:14:52.514] [INFO] Sending autorun event
+[2024-11-25 12:15:44.927] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:15:44.927] [INFO] Sending autorun event
+[2024-11-25 12:17:03.995] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:17:03.995] [INFO] Sending autorun event
+[2024-11-25 12:17:06.864] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:17:06.865] [INFO] Sending autorun event
+[2024-11-25 12:17:27.869] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:17:27.870] [INFO] Sending autorun event
+[2024-11-25 12:18:14.882] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:18:14.882] [INFO] Sending autorun event
+[2024-11-25 12:30:46.265] [INFO] /home/maciej/ruby/ticketee/app/views/projects/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:30:46.265] [INFO] Sending autorun event
+[2024-11-25 12:33:23.592] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:33:23.593] [INFO] Sending autorun event
+[2024-11-25 12:34:56.517] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:34:56.517] [INFO] Sending autorun event
+[2024-11-25 12:36:01.772] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:36:01.772] [INFO] Sending autorun event
+[2024-11-25 12:36:27.390] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:36:27.390] [INFO] Sending autorun event
+[2024-11-25 12:38:10.189] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:38:10.190] [INFO] Sending autorun event
+[2024-11-25 12:38:55.189] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:38:55.189] [INFO] Sending autorun event
+[2024-11-25 12:39:06.842] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:39:06.842] [INFO] Sending autorun event
+[2024-11-25 12:39:33.668] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:39:33.668] [INFO] Sending autorun event
+[2024-11-25 12:40:04.217] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:40:04.217] [INFO] Sending autorun event
+[2024-11-25 12:41:26.065] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:41:26.067] [INFO] Sending autorun event
+[2024-11-25 12:41:47.601] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:41:47.601] [INFO] Sending autorun event
+[2024-11-25 12:42:21.423] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:42:21.424] [INFO] Sending autorun event
+[2024-11-25 12:44:20.872] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:44:20.872] [INFO] Sending autorun event
+[2024-11-25 12:45:46.928] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:45:46.928] [INFO] Sending autorun event
+[2024-11-25 12:46:25.755] [INFO] /home/maciej/ruby/ticketee/app/views/projects/index.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:46:25.756] [INFO] Sending autorun event
+[2024-11-25 12:46:51.244] [INFO] /home/maciej/ruby/ticketee/app/views/projects/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:46:51.245] [INFO] Sending autorun event
+[2024-11-25 12:47:12.836] [INFO] /home/maciej/ruby/ticketee/app/views/projects/edit.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:47:12.837] [INFO] Sending autorun event
+[2024-11-25 12:47:39.843] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:47:39.843] [INFO] Sending autorun event
+[2024-11-25 12:47:43.926] [INFO] /home/maciej/ruby/ticketee/app/views/projects/show.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:47:43.927] [INFO] Sending autorun event
+[2024-11-25 12:50:35.203] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:50:35.203] [INFO] Sending autorun event
+[2024-11-25 12:52:52.531] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 12:52:52.532] [INFO] Sending autorun event
+[2024-11-25 14:30:44.069] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:30:44.069] [INFO] Sending autorun event
+[2024-11-25 14:31:47.389] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:31:47.389] [INFO] Sending autorun event
+[2024-11-25 14:32:01.080] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:32:01.080] [INFO] Sending autorun event
+[2024-11-25 14:32:28.363] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:32:28.364] [INFO] Sending autorun event
+[2024-11-25 14:33:04.003] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:33:04.003] [INFO] Sending autorun event
+[2024-11-25 14:33:47.751] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:33:47.751] [INFO] Sending autorun event
+[2024-11-25 14:34:17.603] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:34:17.604] [INFO] Sending autorun event
+[2024-11-25 14:35:01.172] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:35:01.172] [INFO] Sending autorun event
+[2024-11-25 14:36:24.038] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:36:24.039] [INFO] Sending autorun event
+[2024-11-25 14:37:55.747] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:37:55.747] [INFO] Sending autorun event
+[2024-11-25 14:38:47.643] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:38:47.643] [INFO] Sending autorun event
+[2024-11-25 14:39:12.044] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:39:12.044] [INFO] Sending autorun event
+[2024-11-25 14:40:04.929] [INFO] /home/maciej/ruby/ticketee/Gemfile was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:40:04.929] [INFO] Sending autorun event
+[2024-11-25 14:41:37.855] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:41:37.855] [INFO] Sending autorun event
+[2024-11-25 14:50:21.515] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:50:21.515] [INFO] Sending autorun event
+[2024-11-25 14:51:15.308] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:51:15.308] [INFO] Sending autorun event
+[2024-11-25 14:53:43.907] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:53:43.907] [INFO] Sending autorun event
+[2024-11-25 14:55:54.190] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:55:54.190] [INFO] Sending autorun event
+[2024-11-25 14:56:44.233] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:56:44.233] [INFO] Sending autorun event
+[2024-11-25 14:57:33.778] [INFO] /home/maciej/ruby/ticketee/Gemfile was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:57:33.778] [INFO] Sending autorun event
+[2024-11-25 14:59:26.760] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 14:59:26.760] [INFO] Sending autorun event
+[2024-11-25 15:00:32.388] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:00:32.388] [INFO] Sending autorun event
+[2024-11-25 15:01:00.327] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:01:00.327] [INFO] Sending autorun event
+[2024-11-25 15:01:27.189] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:01:27.189] [INFO] Sending autorun event
+[2024-11-25 15:02:03.903] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:02:03.903] [INFO] Sending autorun event
+[2024-11-25 15:03:16.901] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:03:16.902] [INFO] Sending autorun event
+[2024-11-25 15:04:23.335] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:04:23.335] [INFO] Sending autorun event
+[2024-11-25 15:05:48.320] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:05:48.320] [INFO] Sending autorun event
+[2024-11-25 15:06:42.996] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:06:42.997] [INFO] Sending autorun event
+[2024-11-25 15:07:28.350] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:07:28.350] [INFO] Sending autorun event
+[2024-11-25 15:07:47.445] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:07:47.445] [INFO] Sending autorun event
+[2024-11-25 15:18:53.906] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:18:53.906] [INFO] Sending autorun event
+[2024-11-25 15:20:28.138] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:20:28.138] [INFO] Sending autorun event
+[2024-11-25 15:21:36.902] [INFO] /home/maciej/ruby/ticketee/app/views/projects/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:21:36.902] [INFO] Sending autorun event
+[2024-11-25 15:23:28.310] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/new.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:23:28.310] [INFO] Sending autorun event
+[2024-11-25 15:24:03.305] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/edit.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:24:03.305] [INFO] Sending autorun event
+[2024-11-25 15:24:23.029] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:24:23.029] [INFO] Sending autorun event
+[2024-11-25 15:24:36.073] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:24:36.073] [INFO] Sending autorun event
+[2024-11-25 15:25:24.697] [INFO] /home/maciej/ruby/ticketee/app/views/tickets/_form.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:25:24.697] [INFO] Sending autorun event
+[2024-11-25 15:28:09.428] [INFO] /home/maciej/ruby/ticketee/app/assets/stylesheets/application.css.scss was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:28:09.428] [INFO] Sending autorun event
+[2024-11-25 15:29:39.674] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:29:39.674] [INFO] Sending autorun event
+[2024-11-25 15:32:21.886] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:32:21.886] [INFO] Sending autorun event
+[2024-11-25 15:34:29.106] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:34:29.106] [INFO] Sending autorun event
+[2024-11-25 15:34:57.820] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:34:57.820] [INFO] Sending autorun event
+[2024-11-25 15:37:32.285] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:37:32.285] [INFO] Sending autorun event
+[2024-11-25 15:38:31.529] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:38:31.529] [INFO] Sending autorun event
+[2024-11-25 15:41:17.761] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:41:17.761] [INFO] Sending autorun event
+[2024-11-25 15:42:37.520] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:42:37.520] [INFO] Sending autorun event
+[2024-11-25 15:45:31.478] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:45:31.478] [INFO] Sending autorun event
+[2024-11-25 15:47:50.610] [INFO] /home/maciej/ruby/ticketee/package.json was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:47:50.610] [INFO] Sending autorun event
+[2024-11-25 15:48:15.617] [INFO] /home/maciej/ruby/ticketee/package.json was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:48:15.617] [INFO] Sending autorun event
+[2024-11-25 15:59:47.801] [INFO] /home/maciej/ruby/ticketee/babel.config.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 15:59:47.801] [INFO] Sending autorun event
+[2024-11-25 16:01:01.663] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:01:01.663] [INFO] Sending autorun event
+[2024-11-25 16:05:54.166] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:05:54.166] [INFO] Sending autorun event
+[2024-11-25 16:06:59.706] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:06:59.707] [INFO] Sending autorun event
+[2024-11-25 16:10:04.779] [INFO] /home/maciej/ruby/ticketee/app/javascript/packs/application.js was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:10:04.779] [INFO] Sending autorun event
+[2024-11-25 16:12:09.601] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:12:09.601] [INFO] Sending autorun event
+[2024-11-25 16:14:08.425] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:14:08.425] [INFO] Sending autorun event
+[2024-11-25 16:14:41.649] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:14:41.649] [INFO] Sending autorun event
+[2024-11-25 16:14:59.063] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:14:59.063] [INFO] Sending autorun event
+[2024-11-25 16:15:13.587] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:15:13.587] [INFO] Sending autorun event
+[2024-11-25 16:18:17.502] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:18:17.502] [INFO] Sending autorun event
+[2024-11-25 16:18:25.126] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:18:25.127] [INFO] Sending autorun event
+[2024-11-25 16:18:34.370] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:18:34.370] [INFO] Sending autorun event
+[2024-11-25 16:20:55.302] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:20:55.302] [INFO] Sending autorun event
+[2024-11-25 16:21:53.595] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:21:53.595] [INFO] Sending autorun event
+[2024-11-25 16:22:05.950] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:22:05.950] [INFO] Sending autorun event
+[2024-11-25 16:22:06.192] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:22:06.192] [INFO] Sending autorun event
+[2024-11-25 16:22:06.367] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:22:06.367] [INFO] Sending autorun event
+[2024-11-25 16:22:06.512] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:22:06.513] [INFO] Sending autorun event
+[2024-11-25 16:22:06.625] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:22:06.625] [INFO] Sending autorun event
+[2024-11-25 16:22:57.265] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:22:57.265] [INFO] Sending autorun event
+[2024-11-25 16:23:22.897] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:23:22.897] [INFO] Sending autorun event
+[2024-11-25 16:23:57.654] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:23:57.654] [INFO] Sending autorun event
+[2024-11-25 16:24:38.889] [INFO] /home/maciej/ruby/ticketee/app/views/layouts/application.html.erb was saved - checking if this effects /home/maciej/ruby/ticketee
+[2024-11-25 16:24:38.889] [INFO] Sending autorun event
