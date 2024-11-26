@@ -23,7 +23,7 @@ RSpec.describe "Admin::Applications", type: :request do
       before do
         login_as(admin)
       end
-
+      
       it "lets the admin in" do
         get "/admin"
         expect(response).to have_http_status(:success)
