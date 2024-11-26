@@ -1,6 +1,6 @@
 <div class="ticket">
   <header>
-    <h1><%= @project.name %></h1>
+    <h1><%= link_to @project.name, @project %></h1>
     <ul class="actions">
       <li><%= link_to "Edit Ticket", [:edit, @project, @ticket] %></li>
       <li><%= link_to "Delete Ticket", [@project, @ticket], method: :delete,

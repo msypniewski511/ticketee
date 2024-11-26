@@ -10,4 +10,6 @@ Rails.application.routes.draw do
   resources :projects, only: [:index, :show] do
     resources :tickets
   end
+
+  match '*path', to: 'application#redirect_to_root', via: :all
 end

@@ -2,6 +2,10 @@ class TicketsController < ApplicationController
   before_action :set_project
   before_action :set_ticket, only: %i(show edit update destroy)
 
+  def index
+    redirect_to @project
+  end
+
   def new
     @ticket = @project.tickets.build
   end
