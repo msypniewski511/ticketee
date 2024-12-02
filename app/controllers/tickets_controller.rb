@@ -11,6 +11,7 @@ class TicketsController < ApplicationController
   end
 
   def show
+    @comment = @ticket.comments.build
   end
 
   def edit
@@ -20,7 +21,22 @@ class TicketsController < ApplicationController
     @ticket = @project.tickets.build(ticket_params)
     @ticket.author = current_user
 
+    if params[:attachments].present?
+      @ticket.attachments.attach(params[:attachments])
+      Rails.logger.info("-----------------------------------")
+      Rails.logger.info("-----------------------------------")
+      Rails.logger.info("-----------------------------------")
+      Rails.logger.info("-----------------------------------")
+      Rails.logger.info("-----------------------------------")
+      Rails.logger.info("-----------------------------------")
+      Rails.logger.info params[:attachments].inspect
+    end
+
+
     if @ticket.save
+      @ticket.attachments.each do |attachment|
+        Rails.logger.info "Attached file: #{attachment.filename}"
+      end
       flash[:notice] = "Ticket has been created."
       redirect_to [@project, @ticket]
     else
@@ -30,6 +46,10 @@ class TicketsController < ApplicationController
   end
 
   def update
+    if params[:attachments].present?
+      @ticket.attachments.attach(params[:attachments])
+    end
+
     if @ticket.update(ticket_params)
       flash[:notice] = "Ticket has been updated."
       redirect_to [@project, @ticket]
@@ -45,6 +65,11 @@ class TicketsController < ApplicationController
     redirect_to @project
   end
 
+  def upload_file
+    blob = ActiveStorage::Blob.create_and_upload!(io: params[:file], filename: params[:file].original_filename)
+    render json: { signedId: blob.signed_id }
+  end
+  
   private
   def set_project
     @project = Project.find(params[:project_id])
@@ -55,6 +80,6 @@ class TicketsController < ApplicationController
   end
 
   def ticket_params
-    params.require(:ticket).permit(:name, :description, :attachment)
+    params.require(:ticket).permit(:name, :description, :attachment ,attachments: [])
   end
 end

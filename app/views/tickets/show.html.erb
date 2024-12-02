@@ -22,17 +22,33 @@
   <header>
     <h2><%= @ticket.name %></h2>
   </header>
-
   <%= simple_format(@ticket.description) %>
 
-  <% if @ticket.attachment.present? %>
-    <h4>Attachment</h4>
-    <div class="attachment">
-      <p>
-        <%= link_to @ticket.attachment.filename,
-          rails_blob_path(@ticket.attachment, dissposition: 'attachment') %>
-        (<%= number_to_human_size(@ticket.attachment.attachment.blob.byte_size) %>)
-      </p>
+  <% if @ticket.attachments.present? %>
+    <h4>Attachment(s)</h4>
+    <div class="attachments">
+      <% @ticket.attachments.each do |attachment| %>
+      <%= image_tag attachment %>
+        <p>
+          <%= link_to attachment.filename,
+            rails_blob_path(attachment, dissposition: 'attachment') %>
+          (<%= number_to_human_size(attachment.blob.byte_size) %>)
+        </p>
+      <% end %>
     </div>
   <% end %>
+</div>
+
+<div class="comments">
+  <header>
+    <h3>Comments</h3>
+  </header>
+  <% comments = @ticket.comments.persisted.ordered %>
+  <% if comments.any? %>
+    <%= render comments %>
+  <% else %>
+    <p>Ther are no comments for this ticket.</p>
+  <% end %>
+
+  <%= render "comments/form", ticket: @ticket, comment: @comment %>
 </div>

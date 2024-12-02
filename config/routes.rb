@@ -3,6 +3,7 @@ Rails.application.routes.draw do
     root "application#index"
 
     resources :projects, expect: [:index, :show]
+
     resources :users do
       member do
         patch :archive
@@ -12,9 +13,19 @@ Rails.application.routes.draw do
   devise_for :users
   root "projects#index"
 
-  resources :projects, only: [:index, :show] do
-    resources :tickets
+  resources :projects, only: [:index, :show, :edit, :update] do
+    resources :tickets do
+      collection do
+        post :upload_file
+      end
+    end
   end
 
-  match '*path', to: 'application#redirect_to_root', via: :all
+  scope path: "tickets/:ticket_id", as: :ticket do
+    resources :comments, only: [:create]
+  end
+
+  mount ActiveStorage::Engine => "/rails/active_storage"
+
+  # match '*path', to: 'application#redirect_to_root', via: :all
 end

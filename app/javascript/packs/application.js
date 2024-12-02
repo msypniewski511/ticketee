@@ -11,6 +11,7 @@ import 'channels'
 import 'jquery'
 import 'popper.js'
 import 'bootstrap'
+require('../src/dropzone')
 
 Rails.start()
 Turbolinks.start()
