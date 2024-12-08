@@ -10,6 +10,11 @@
   <% @states.each do |state| %>
     <li class="d-flex justify-content-between">
       <%= render "states/state", state: state %>
+      <% if state.default? %>
+        (Default)
+      <% else %>
+        <%= link_to "Make Default", make_default_admin_state_path(state), method: :patch %>
+      <% end %>
       <%= link_to "Edit State", edit_admin_state_path(state) %></li>
     </li>
   <% end %>
