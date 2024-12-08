@@ -1,4 +1,8 @@
 class State < ApplicationRecord
+  def self.default
+    find_by(default: true)
+  end
+
   validates :name, uniqueness: true
 
   def make_default!
