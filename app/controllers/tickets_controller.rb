@@ -12,6 +12,7 @@ class TicketsController < ApplicationController
 
   def show
     @comment = @ticket.comments.build
+    @states = State.all
   end
 
   def edit
@@ -23,13 +24,6 @@ class TicketsController < ApplicationController
 
     if params[:attachments].present?
       @ticket.attachments.attach(params[:attachments])
-      Rails.logger.info("-----------------------------------")
-      Rails.logger.info("-----------------------------------")
-      Rails.logger.info("-----------------------------------")
-      Rails.logger.info("-----------------------------------")
-      Rails.logger.info("-----------------------------------")
-      Rails.logger.info("-----------------------------------")
-      Rails.logger.info params[:attachments].inspect
     end
 
 
