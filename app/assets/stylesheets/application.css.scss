@@ -67,3 +67,6 @@ a.delete {
 label.required:after {
   content: ' *';
 }
+.tickets li, .states li {
+  padding-bottom: 10px;
+}

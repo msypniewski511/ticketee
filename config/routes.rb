@@ -9,6 +9,7 @@ Rails.application.routes.draw do
         patch :archive
       end
     end
+    resources :states
   end
   devise_for :users
   root "projects#index"

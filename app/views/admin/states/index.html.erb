@@ -1,0 +1,16 @@
+<header>
+  <h1>States</h1>
+
+  <ul class="actions">
+    <li><%= link_to "New State", new_admin_state_path, class: "new" %></li>
+  </ul>
+</header>
+
+<ul class="states w-25">
+  <% @states.each do |state| %>
+    <li class="d-flex justify-content-between">
+      <%= render "states/state", state: state %>
+      <%= link_to "Edit State", edit_admin_state_path(state) %></li>
+    </li>
+  <% end %>
+</ul>
