@@ -23,9 +23,9 @@ RSpec.feature "Admins can manage states for tickets" do
 
       scenario "edit state with valid details" do
         visit admin_states_path
-        within('li', text: "A state") do 
+        within('li', text: "A state") do
+          click_link "Edit State"
         end
-        click_link "Edit State"
 
         fill_in "Name", with: "new name"
         click_button "Update State"
