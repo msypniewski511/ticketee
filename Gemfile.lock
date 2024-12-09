@@ -101,6 +101,10 @@ GEM
       responders
       warden (~> 1.2.3)
     diff-lcs (1.5.1)
+    email_spec (2.2.2)
+      htmlentities (~> 4.3.3)
+      launchy (~> 2.1)
+      mail (~> 2.7)
     erubi (1.13.0)
     execjs (2.10.0)
     factory_bot (6.5.0)
@@ -137,6 +141,7 @@ GEM
       guard (~> 2.1)
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
+    htmlentities (4.3.4)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
     image_processing (1.13.0)
@@ -145,6 +150,8 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    launchy (2.5.2)
+      addressable (~> 2.8)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -354,6 +361,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   database_cleaner-active_record
   devise (~> 4.9)
+  email_spec (~> 2.2.0)
   factory_bot_rails
   font-awesome-rails (= 4.7.0.9)
   guard

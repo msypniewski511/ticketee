@@ -31,6 +31,7 @@ group :test do
   gem 'selenium-webdriver', '>= 4.0.0.rc1'
   gem 'webdrivers'
   gem 'database_cleaner-active_record'
+  gem "email_spec", "~> 2.2.0", require: false
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
