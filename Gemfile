@@ -45,3 +45,5 @@ gem "bootstrap_form", "4.5.0"
 gem "devise", "~> 4.9"
 
 gem "image_processing", ">= 1.2"
+
+gem "premailer-rails", "~> 1.12"
