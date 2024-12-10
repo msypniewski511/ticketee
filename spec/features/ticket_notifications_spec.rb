@@ -11,7 +11,7 @@ RSpec.feature "Users can receive notifications about ticket updates" do
   end
 
   before do
-    ticket.watchers << alice
+    # ticket.watchers << alice
 
     login_as(bob)
     visit project_ticket_path(project, ticket)

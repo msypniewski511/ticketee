@@ -8,7 +8,7 @@ RSpec.feature "Users can watch and unwatch tickets" do
   end
 
   before do
-    ticket.watchers << user
+    # ticket.watchers << user
     login_as(user)
     visit project_ticket_path(project, ticket)
   end

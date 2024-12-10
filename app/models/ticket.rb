@@ -11,10 +11,15 @@ class Ticket < ApplicationRecord
   validates :description, presence: true, length: { minimum: 10 }
 
   before_create :assign_default_state
+  after_create :add_author_to_watchers
 
   private
 
   def assign_default_state
     self.state ||= State.default
+  end
+
+  def add_author_to_watchers
+    watchers << author unless watchers.exists?(author.id)
   end
 end
