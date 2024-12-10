@@ -23,6 +23,17 @@
         <td><%= render @ticket.state %></td>
       </tr>
     <% end %>
+      <dt>Watchers:</dt>
+      <dd class="watchers">
+        <%= @ticket.watchers.map(&:email).to_sentence %>
+      </dd>
+    <tr>
+      <th>Watchers:</th>
+      <td id="watchers">
+        <%= toggle_watching_button(@ticket) %>
+        <%= @ticket.watchers.map(&:email).to_sentence %>
+      </td>
+    </tr>
   </table>
 
   <header>
